@@ -8,6 +8,7 @@ HERE_PATH =  os.path.abspath( os.path.dirname( __file__ )	 )
 
 
 def _read_apt_file(file_name):
+    """retruns a list of files in apt/*.txt"""
 	with open(HERE_PATH + "/apt/%s" % file_name, "r") as f:
 		contents = f.read()
 	items = contents.split("\n")
@@ -58,7 +59,6 @@ def all():
   remove_crap()
   upgrade()
   install_essentials()
-  conky()
   upgrade()
   local("sudo reboot")
   
