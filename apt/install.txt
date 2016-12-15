@@ -1,0 +1,12 @@
+## apt-get arm.raspian stuff to INSTALL ##
+
+tightvncserver
+htop
+
+python3-pyqt5
+python3-pyqt5.qtwebsockets
+
+imagemagick
+
+## ask james ?
+# qt5.qmake ?

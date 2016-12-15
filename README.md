@@ -1,44 +1,50 @@
 fg-rpi
 =====================
 
-The journet of a  FlightGear pilot
+The journey of a FlightGear pilot with RPI
 
-- landing a huge FlightGear aircraft 
-- with a CAT3 landing 
-- and some CAT5 cable
-- connected to a Raspberry Pie
-- via wifi.. and... 
-- landing .. 
+- landing a huge aircraft on a dark runway 
+- with a CAT3 landing almost
+- and some CAT5 cable disconnected
+- connected to a Raspberry PI glowing in the dark
+- and landing... ;-)
 
 FlightGear RaspberryPi 
 =================================
 
-This repos contains some scripts and utils to setup an RPI.
-by getting rid of crap, installing essentials,
-and minor configuration, for a first time install.
+This repos contains 
+- some scripts and utils to setup an RPI.
+- by getting rid of crap
+- installing essentials,
+- and minor configuration
+= Idea for a first time install
++ moving onwards
 
-The First time install is condidered to be a Noobs image or raspian alike..
+The "first boot" install is condidered to be a 
+= Noobs image
+= or raspian alike
 
-IMPORTANT Note: The "default" 
+
+IMPORTANT Secrets: The "default" 
  - user =  `pi` 
  - password is `raspberry`
 
 
-1: Install git and clone this repos
-=======================================
+## 1: Install git and clone this repos
+
 
 Kick up a terminal and tap in
 
     sudo apt-get install git
     
-2: clone the fg-rpi stuff
-=============================
+## 2: clone the fg-rpi stuff
+
 
     git clone https://github.com/freeflightsim/fg-rpi.git
 
 
-3: Run the bootstrap essentials
-===========================================
+## 3: Run the bootstrap essentials
+
 
 Enter the fg-rpi dir and run the script "initial-setup.sh"
 which install some python headers and fabric
@@ -47,8 +53,8 @@ which install some python headers and fabric
     ./initial-setup.sh
 
 
-4: Run `fab` commands
-===============================
+## 4: Run `fab` commands
+
 
 To complete tap in `fab all` which executes a series of commands
 and could take a while. When complete it will reboot.
@@ -57,8 +63,8 @@ and could take a while. When complete it will reboot.
 
 For more "fab commands" exec `fab -l`
 
-5: Bonus
-==============================
+## 5: SSH 
+
 
 SSH in from remote machine with
 

@@ -1,0 +1,43 @@
+## This is removing crap from raspian install..
+## PLEASE ADD TO THIS LIST said pedro..
+## mad what installed sometimes, but get idea
+## devil we want a slim line back to basics
+
+
+idle 
+python3-pygame 
+python-pygame 
+python-tk
+idle3 
+python3-tk
+python3-pygame
+python-pygame 
+
+wolfram-engine
+debian-reference-en
+
+nodered
+
+libreoffice-common
+libreoffice-core
+
+greenfoot
+bluej
+oracle-java8-jdk
+
+sonic-pi 
+scratch
+nuscratch
+smartsim
+timidity
+
+minecraft-pi 
+python-minecraftpi
+penguinspuzzle
+
+x2x
+
+
+samba
+smbclient 
+libsmbclient
